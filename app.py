@@ -1,4 +1,20 @@
+import os
 import re
+import time
+
+import streamlit as st
+
+# Load API keys from Streamlit Cloud secrets
+try:
+    for key in ["GOOGLE_API_KEY", "TAVILY_API_KEY"]:
+        if key in st.secrets:
+            os.environ[key] = st.secrets[key]
+except Exception:
+    pass
+
+from agents import build_reader_agent, build_search_agent, writer_chain, critic_chain
+from pipeline import extract_text
+from tools import scrape_url
 import time
 
 import streamlit as st
