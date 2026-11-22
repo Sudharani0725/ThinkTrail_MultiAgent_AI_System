@@ -1,0 +1,42 @@
+
+# =====================================
+# LANGCHAIN & LCEL
+# =====================================
+langchain
+langchain-core
+langchain-google-genai
+
+# =====================================
+# MULTI-AGENT ORCHESTRATION
+# =====================================
+langgraph
+
+# =====================================
+# TOOLS - TAVILY SEARCH
+# =====================================
+langchain-tavily
+tavily-python
+
+# =====================================
+# WEB SCRAPING - BEAUTIFULSOUP
+# =====================================
+beautifulsoup4
+requests
+lxml
+
+# =====================================
+# ENVIRONMENT VARIABLES
+# =====================================
+python-dotenv
+
+# =====================================
+# DATA VALIDATION
+# =====================================
+pydantic
+
+rich
+
+# =====================================
+# FRONTEND - STREAMLIT
+# =====================================
+streamlit
